@@ -1,12 +1,12 @@
-import { Navigate } from "react-router-dom";
+import { Navigate } from 'react-router-dom';
 
 const PrivateRoute = ({ children }) => {
-    /**
-     * Add the logic to authorize the user
-     * 
-     */
-    const isUserAuthorized = true
-    return isUserAuthorized ? children : <Navigate to="/login" />
-}
+  /**
+   * Add the logic to authorize the user
+   *
+   */
+  const isUserAuthorized = true;
+  return isUserAuthorized ? children : <Navigate to="/login" />;
+};
 
-export default PrivateRoute
+export default PrivateRoute;

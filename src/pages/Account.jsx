@@ -1,7 +1,5 @@
 const Account = () => {
-    return (
-        <h2>Welcome to Account Page</h2>
-    )
-}
+  return <h2>Welcome to Account Page</h2>;
+};
 
-export default Account
+export default Account;

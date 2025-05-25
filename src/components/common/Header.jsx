@@ -1,12 +1,12 @@
-import Navigation from "./Navigation"
+import Navigation from './Navigation';
 
 const Header = () => {
-    return (
-        <header>
-            <h1>Welcome to React Redux Router Template Code</h1>
-            <Navigation />
-        </header>
-    )
-}
+  return (
+    <header>
+      <h1>Welcome to React Redux Router Template Code</h1>
+      <Navigation />
+    </header>
+  );
+};
 
-export default Header
+export default Header;
